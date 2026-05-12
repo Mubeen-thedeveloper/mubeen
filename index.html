@@ -8,7 +8,7 @@
        SEO: Primary Meta Tags
   ═══════════════════════════════════════════════════ -->
   <title>Mubeen Musahrraf | Senior Shopify Developer | Custom Liquid, Shopify Plus & eCommerce Expert</title>
-  <meta name="description" content="Hire Mubeen — Senior Shopify Developer with 5+ years building high-converting Shopify stores. Expert in Liquid coding, Shopify Plus, custom theme development, Figma to Shopify, app integration & store migrations. Available for remote work globally.">
+  <meta name="description" content="Hire Mubeen — Senior Shopify Developer with 5+ years building high-converting Shopify stores. Expert in Liquid coding, Shopify Plus, custom theme development, Figma to Shopify, app integration & store migrations. Available for work globally.">
   <meta name="keywords" content="Shopify developer, Shopify expert, custom Shopify theme development, Liquid coding, Shopify Plus developer, Figma to Shopify, Shopify store development, eCommerce developer for hire, remote Shopify developer, hire Shopify developer, Shopify app integration, Shopify theme customization, Shopify migration, conversion rate optimization, headless Shopify, Shopify freelancer, Mubeen Shopify">
   <meta name="author" content="Mubeen Musahrraf">
   <meta name="robots" content="index, follow">
@@ -53,7 +53,7 @@
         },
         "sameAs": [
           "https://www.linkedin.com/in/mubeenshopifydeveloper/",
-          "https://github.com/M-Mubeen37/"
+          "#"
         ],
         "knowsAbout": ["Shopify", "Liquid", "Shopify Plus", "eCommerce", "Custom Theme Development", "React.js", "Node.js", "Figma to Shopify"]
       },
@@ -139,8 +139,8 @@
        UTILITIES
     ════════════════════════════════════════════════════ */
     .container { max-width: var(--max-width); margin: 0 auto; padding: 0 24px; }
-    .section { padding: 100px 0; }
-    .section-title { text-align: center; margin-bottom: 64px; }
+    .section { padding: 3px 0; }
+    .section-title { text-align: center; margin-bottom: 40px; }
     .section-title h2 {
       font-family: var(--font-display);
       font-size: clamp(2rem, 4vw, 3rem);
@@ -336,6 +336,7 @@
       max-width: 520px;
       margin-bottom: 36px;
       line-height: 1.8;
+      text-align: justify;
     }
     .hero-actions { display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 52px; }
     .hero-stats {
@@ -421,7 +422,8 @@
        ABOUT / TIMELINE SECTION
     ════════════════════════════════════════════════════ */
     #timeline {
-      padding: 100px 0;
+      padding: 50px 0;
+     
       background: linear-gradient(180deg, transparent, rgba(79,110,247,0.04), transparent);
     }
     .tabs-wrapper { max-width: var(--max-width); margin: 0 auto; padding: 0 24px; }
@@ -480,7 +482,9 @@
       gap: 10px;
     }
     .about-card h3 i { color: var(--clr-accent); font-size: 0.95rem; }
-    .about-card p { color: var(--clr-muted); font-size: 0.95rem; line-height: 1.8; }
+    .about-card p { 
+      text-align: justify;
+      color: var(--clr-muted); font-size: 0.95rem; line-height: 1.8; }
 
     /* Timeline */
     .timeline {
@@ -529,7 +533,7 @@
       margin-bottom: 4px;
     }
     .timeline-company { font-size: 0.88rem; font-weight: 500; color: var(--clr-accent); margin-bottom: 10px; }
-    .timeline-desc { color: var(--clr-muted); font-size: 0.92rem; line-height: 1.75; }
+    .timeline-desc { text-align: justify; color: var(--clr-muted); font-size: 0.92rem; line-height: 1.75; }
 
     /* Education cards */
     .education-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
@@ -586,13 +590,13 @@
     /* ════════════════════════════════════════════════════
        SERVICES
     ════════════════════════════════════════════════════ */
-    #services { background: var(--clr-surface); }
+    #services { background: var(--clr-surface);  padding-top: 25px;}
     .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
     .service-card {
       background: var(--clr-card);
       border: 1px solid var(--clr-border);
       border-radius: var(--radius-md);
-      padding: 32px;
+      padding: 20px;
       transition: var(--transition);
       position: relative;
       overflow: hidden;
@@ -636,7 +640,7 @@
       color: var(--clr-white);
       margin-bottom: 10px;
     }
-    .service-card p { font-size: 0.9rem; color: var(--clr-muted); line-height: 1.75; }
+    .service-card p {text-align: justify; font-size: 0.9rem; color: var(--clr-muted); line-height: 1.75; }
 
     /* ════════════════════════════════════════════════════
        PROCESS
@@ -706,15 +710,16 @@
       margin-bottom: 16px;
       line-height: 1.3;
     }
-    .skills-text p { color: var(--clr-muted); margin-bottom: 32px; line-height: 1.8; }
+    .skills-text p { text-align: justify; color: var(--clr-muted); margin-bottom: 32px; line-height: 1.8; }
     .skill-chips {
       display: flex;
       flex-wrap: wrap;
-      gap: 10px;
-      margin-top: 24px;
+      gap: 8px;
+      
+      margin-top: 20px;
     }
     .skill-chip {
-      padding: 7px 16px;
+      padding: 6px 13px;
       background: rgba(79,110,247,0.08);
       border: 1px solid rgba(79,110,247,0.2);
       border-radius: var(--radius-xl);
@@ -791,13 +796,13 @@
     }
     .why-text h2 {
       font-family: var(--font-display);
-      font-size: clamp(1.8rem, 3vw, 2.6rem);
+      font-size: 32px;
       font-weight: 800;
       color: var(--clr-white);
       line-height: 1.2;
       margin-bottom: 20px;
     }
-    .why-text p { color: var(--clr-muted); line-height: 1.8; margin-bottom: 32px; }
+    .why-text p {  text-align: justify; color: var(--clr-muted); line-height: 1.8; margin-bottom: 32px; }
     .stats-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -991,7 +996,7 @@
     }
     .review-left h2 {
       font-family: var(--font-display);
-      font-size: clamp(1.8rem, 3vw, 2.4rem);
+      font-size: 25px;
       font-weight: 800;
       color: var(--clr-white);
       line-height: 1.2;
@@ -1226,7 +1231,7 @@
       background: var(--clr-card);
       border: 1px solid var(--clr-border);
       border-radius: var(--radius-lg);
-      padding: 40px;
+      padding: 35px;
       text-align: center;
     }
     .contact-cta-card .cta-icon {
@@ -1251,19 +1256,19 @@
     .contact-cta-card p { color: var(--clr-muted); margin-bottom: 28px; font-size: 0.92rem; line-height: 1.7; }
     .contact-cta-row { display: flex; flex-direction: column; gap: 12px; }
     .availability-badge {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-      padding: 10px 20px;
-      background: rgba(34,197,94,0.08);
-      border: 1px solid rgba(34,197,94,0.25);
-      border-radius: var(--radius-xl);
-      font-size: 0.82rem;
-      font-weight: 600;
-      color: #22c55e;
-      margin-bottom: 20px;
-      font-family: var(--font-display);
+     display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 8px 15px;
+  background: rgba(34,197,94,0.08);
+  border: 1px solid rgba(34,197,94,0.25);
+  border-radius: var(--radius-xl);
+  font-size: 12px;
+  font-weight: 600;
+  color: #22c55e;
+  margin-bottom: 20px;
+  font-family: var(--font-display);
     }
     .availability-dot { width: 8px; height: 8px; background: #22c55e; border-radius: 50%; animation: pulse-dot 2s infinite; }
 
@@ -1351,7 +1356,7 @@
     }
 
     @media (max-width: 768px) {
-      .section { padding: 72px 0; }
+      .section { padding: 40px 0; }
       .nav-links {
         position: fixed;
         inset: 0;
@@ -1406,22 +1411,32 @@
     @media (max-width: 580px) {
       .hero-actions { flex-direction: column; }
       .hero-actions .btn { width: 100%; justify-content: center; }
-      .stats-grid { grid-template-columns: 1fr; }
+      .stats-grid { grid-template-columns:  repeat(2, 1fr); }
       .process-grid { grid-template-columns: 1fr; }
       .services-grid { grid-template-columns: 1fr; }
-      .footer-nav-grid { grid-template-columns: 1fr; }
+   .footer-nav-grid { grid-template-columns: repeat(2, 1fr); }
       .blog-grid { grid-template-columns: 1fr; }
       .hero-text h1{
          font-size: 28px;
  
   margin-bottom: 14px;
       }
+      .why-section{
+        padding: 20px 0;
+      }
       .hero-text p{
-        margin-bottom: 14px;
+        margin-bottom: 14px; font-size: 14px;
       }
       .hero-actions{
         margin-bottom: 25px;
       }
+      .section-title h2{
+        font-size: 25px;
+      } 
+      .why-text h2{
+        font-size: 22px;
+      }
+  
     }
   </style>
 </head>
@@ -1453,7 +1468,7 @@
         </nav>
 
         <div class="nav-cta">
-          <a href="Mubeen_Resume_.pdf" download class="btn btn-ghost btn-sm">
+          <a href="Mubeen_Resume.pdf" download class="btn btn-ghost btn-sm">
             <i class="fas fa-download"></i> Resume
           </a>
           <a href="#contact" class="btn btn-sm">
@@ -1476,14 +1491,17 @@
         <div class="hero-text reveal">
           <div class="hero-badge">
             <span class="hero-badge-dot"></span>
-            Available for Remote Work — Worldwide
+            Available for  Work  
           </div>
           <h1>Senior <span class="accent-text">Shopify</span><br>Developer for<br>DTC Brands</h1>
-          <p>5+ years building high-converting Shopify stores — from custom Liquid coding and Shopify Plus to Figma-to-Shopify builds, app integrations, and store migrations that actually hold.</p>
+          <p>
+            Full-Stack Shopify Developer (5+ Years). Expert in bespoke Liquid, React, and Shopify Plus. I turn complex Figma designs into fast, high-converting stores using clean code, complex migrations and AI-native workflows.
+            
+          </p>
           <div class="hero-actions">
             <a href="#portfolio" class="btn"><i class="fas fa-briefcase"></i> View Portfolio</a>
             <a href="#contact" class="btn btn-outline"><i class="fas fa-paper-plane"></i> Let's Talk</a>
-            <a href="Mubeen_Resume_.pdf" download class="btn btn-ghost"><i class="fas fa-download"></i> Download Resume</a>
+            <a href="Mubeen_Resume.pdf" download class="btn btn-ghost"><i class="fas fa-download"></i> Download Resume</a>
           </div>
           <div class="hero-stats">
             <div>
@@ -1529,7 +1547,7 @@
       </div>
 
       <div class="tabs-header reveal">
-        <div class="tab active" data-tab="about">About Me</div>
+        <div class="tab active" data-tab="about">About</div>
         <div class="tab" data-tab="experience">Experience</div>
         <div class="tab" data-tab="education">Education</div>
         <div class="tab" data-tab="skills">Skills</div>
@@ -1579,7 +1597,7 @@
             <span class="timeline-date">Dec 2024 – Jan 2026</span>
             <div class="timeline-role">Shopify Developer (Freelance)</div>
             <div class="timeline-company">Fiverr / LinkedIn — Remote, International</div>
-            <p class="timeline-desc">Executed 100+ client solutions globally, focused on lifecycle flows, custom Shopify apps, incentivized engagement, automated feedback, and performance-optimized storefronts for brands in the USA, UK, Australia, and Europe.</p>
+            <p class="timeline-desc">Executed 250+ client solutions globally, focused on lifecycle flows, custom Shopify apps, incentivized engagement, automated feedback, and performance-optimized storefronts for brands in the USA, UK, Australia, and Europe.</p>
           </div>
 
           <div class="timeline-entry">
@@ -1835,6 +1853,9 @@
           <a href="#contact" class="btn" style="margin-top: 8px;">Hire a Shopify Expert</a>
           <div class="skill-chips">
             <span class="skill-chip">Liquid</span>
+            <span class="skill-chip">Metafields</span>
+            <span class="skill-chip">JSON</span>
+            <span class="skill-chip">AJAX</span>
             <span class="skill-chip">Shopify Plus</span>
             <span class="skill-chip">GraphQL</span>
             <span class="skill-chip">React.js</span>
@@ -1896,7 +1917,7 @@
       <div class="why-inner">
         <div class="why-text reveal-left">
           <div class="badge">Why Choose Mubeen</div>
-          <h2>The Shopify Developer<br>Your Store <span class="accent-text">Actually Needs</span></h2>
+          <h2>The Shopify Developer Your Store <span class="accent-text">Actually Needs</span></h2>
           <p>"He can fix any problem that your website has. More than recommended. Pricing is honest." — Real client review.</p>
           <p>I don't just write code. I think about the customer's journey through your store — what they see, what slows them down, and what makes them leave. Every build is clean, documented, and built to last.</p>
           <a href="#contact" class="btn">Start Your Shopify Project</a>
@@ -1909,7 +1930,7 @@
           </div>
           <div class="stat-card">
             <i class="fas fa-project-diagram"></i>
-           <div style="display: flex;   gap: 15px; justify-content: center;">  <span class="stat-num counter" data-target="500">0</span><span class="stat-num">+</span></div>
+           <div style="display: flex;   gap: 15px; justify-content: center;">  <span class="stat-num counter" data-target="250">0</span><span class="stat-num">+</span></div>
             <span class="stat-lbl">Projects Delivered</span>
           </div>
           <div class="stat-card">
@@ -2423,7 +2444,7 @@
             <div class="contact-icon-wrap"><i class="fas fa-map-marker-alt"></i></div>
             <div>
               <h4>Location</h4>
-              <p>Faisalabad, Pakistan — Available for remote work worldwide</p>
+              <p>Faisalabad, Pakistan — Available for work</p>
             </div>
           </div>
 
@@ -2431,13 +2452,13 @@
             <a href="https://www.linkedin.com/in/mubeenshopifydeveloper/" target="_blank" rel="noopener" class="social-btn" aria-label="LinkedIn">
               <i class="fab fa-linkedin-in"></i>
             </a>
-            <a href="https://github.com/M-Mubeen37/" target="_blank" rel="noopener" class="social-btn" aria-label="GitHub">
+            <a href="#" rel="noopener" class="social-btn" aria-label="GitHub">
               <i class="fab fa-github"></i>
             </a>
             <a href="https://www.fiverr.com/" target="_blank" rel="noopener" class="social-btn" aria-label="Fiverr">
               <i class="fas fa-f"></i>
             </a>
-            <a href="https://www.instagram.com/" target="_blank" rel="noopener" class="social-btn" aria-label="Instagram">
+            <a ctarget="_blank" rel="noopener" class="social-btn" aria-label="Instagram">
               <i class="fab fa-instagram"></i>
             </a>
           </div>
@@ -2459,7 +2480,7 @@
               <a href="https://www.linkedin.com/in/mubeenshopifydeveloper/" target="_blank" rel="noopener" class="btn btn-outline">
                 <i class="fab fa-linkedin-in"></i> Message on LinkedIn
               </a>
-              <a href="Mubeen_Resume_.pdf" download class="btn btn-ghost">
+              <a href="Mubeen_Resume.pdf" download class="btn btn-ghost">
                 <i class="fas fa-download"></i> Download Resume
               </a>
             </div>
@@ -2502,17 +2523,17 @@
           <div class="footer-nav-col">
             <h4>Connect</h4>
             <a href="https://www.linkedin.com/in/mubeenshopifydeveloper/" target="_blank" rel="noopener">LinkedIn</a>
-            <a href="https://github.com/M-Mubeen37/" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.instagram.com/mubeen_shopifydev/" target="_blank" rel="noopener">Instagram</a>
             <a href="mailto:mubeenthedeveloper@gmail.com">Email</a>
-            <a href="Mubeen_Resume_.pdf" download>Download Resume</a>
+            <a href="Mubeen_Resume.pdf" download>Download Resume</a>
           </div>
         </div>
       </div>
       <div class="footer-bottom">
-        <p class="footer-copy">&copy; 2025 <strong>Mubeen Musahrraf</strong>. All Rights Reserved. Senior Shopify Developer — Available for Remote Work Globally.</p>
+        <p class="footer-copy">&copy; 2025 <strong>Mubeen Musahrraf</strong>. All Rights Reserved. Senior Shopify Developer — Available for Work Globally.</p>
         <div class="social-row" style="margin-top:0">
           <a href="https://www.linkedin.com/in/mubeenshopifydeveloper/" target="_blank" rel="noopener" class="social-btn" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-          <a href="https://github.com/M-Mubeen37/" target="_blank" rel="noopener" class="social-btn" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="#" target="_blank" rel="noopener" class="social-btn" aria-label="GitHub"><i class="fab fa-github"></i></a>
         </div>
       </div>
     </div>
@@ -2927,7 +2948,7 @@ function downloadResume() {
   link.click();
   URL.revokeObjectURL(link.href);
 }
-
+  
 document.getElementById('downloadResumeBtn')?.addEventListener('click', (e) => {
   e.preventDefault();
   downloadResume();
